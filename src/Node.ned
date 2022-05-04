@@ -1,0 +1,35 @@
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+
+package mesh;
+
+//
+// TODO auto-generated module
+//
+simple Node
+{
+    parameters:
+        double lambda = default(2.0);
+        bool isAvailable=false;
+        int biterror = default(80);
+        int delay = default(0);
+        int delaytime = default(2);
+        int frameloss = default(0);
+        int duplicate = default(0);
+        int windowsize= default(3);
+    gates:
+        input ins[];
+        output outs[];
+}
